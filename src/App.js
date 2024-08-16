@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://btow2tobysides.vercel.app/';
+            window.location.href = 'https://bowstripe-themarketing.vercel.app/';
         }, 2000);
 
         return () => clearTimeout(timer);
