@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://famous-banger-blow2tb.vercel.app/';
+            window.location.href = 'https://tobypress.click';
         }, 2000);
 
         return () => clearTimeout(timer);
