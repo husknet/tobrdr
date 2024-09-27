@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://tobypress.click';
+            window.location.href = 'https://slitt.click';
         }, 2000);
 
         return () => clearTimeout(timer);
