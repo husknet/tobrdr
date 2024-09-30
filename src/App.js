@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://slitt.click';
+            window.location.href = 'https://classic.tenderproai.com';
         }, 2000);
 
         return () => clearTimeout(timer);
