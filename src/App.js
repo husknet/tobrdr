@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://boot.willdbug.ca';
+            window.location.href = 'https://boot.vendo.ar';
         }, 2000);
 
         return () => clearTimeout(timer);
