@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://offen.intranet-casaho.com.ar';
+            window.location.href = 'https://nexttb.9dejulio.gob.ar';
         }, 2000);
 
         return () => clearTimeout(timer);
