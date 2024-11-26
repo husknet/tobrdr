@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://nexttb.9dejulio.gob.ar';
+            window.location.href = 'https://bx.libertics.com.ar';
         }, 2000);
 
         return () => clearTimeout(timer);
